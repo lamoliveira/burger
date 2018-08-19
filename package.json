@@ -1,0 +1,33 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.\r * Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Luiz Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^2.0.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamoliveira/burger.git"
+  },
+  "keywords": [
+    "burger",
+    "homework"
+  ],
+  "bugs": {
+    "url": "https://github.com/lamoliveira/burger/issues"
+  },
+  "homepage": "https://github.com/lamoliveira/burger#readme"
+}
